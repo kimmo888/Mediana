@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediana</title>
+</head>
+<body>
+    <header>
+        <h1>Promedio Mediana</h1>
+    </header>
+    <main>
+        <h2>Mediana</h2>
+        <form action="" onsubmit="submitForm(event)" >
+            <label for="InputArray">Ingresa los valores a Calcular</label>
+            <input type="number" placeholder="Ingresa los datos a calcular" id="InputArray">
+            <button type="reset" onclick="pushArray();">Enviar dato</button>
+            <button type="reset" onclick="Mediana();">Media</button>
+        </form>
+        <section>
+            <div class="container">
+                <table class="table" id="table">
+                    <thead class="thead-inverse">
+                        <tr>
+                            <th>Dato</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <p id="mediana"></p>
+        </section>
+        <script src="./js/mediana.js"></script>
+    </main>
+</body>
+</html>
